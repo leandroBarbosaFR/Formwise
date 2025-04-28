@@ -101,12 +101,15 @@ export function Header() {
             <div className="hidden md:block">
               <NavLink href="/login">Se connecter</NavLink>
             </div>
-            <Button href="/register" color="blue">
-              <span>
-                Commencez dès{' '}
-                <span className="hidden lg:inline">aujourd&apos;hui</span>
-              </span>
-            </Button>
+            <div className="hidden md:block">
+              {' '}
+              <Button href="/register" color="blue">
+                <span className="lg:inline">
+                  Commencez dès <span>aujourd&apos;hui</span>
+                </span>
+              </Button>
+            </div>
+
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>
