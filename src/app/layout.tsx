@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   },
   description:
     'Avec notre solution, gérez facilement les inscriptions de manière simple, rapide et efficace.',
+  icons: {
+    icon: '/favicon.ico', // your favicon
+    apple: '/apple-touch-icon.png', // your apple-touch-icon
+  },
 }
 
 const inter = Inter({
