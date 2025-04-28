@@ -9,6 +9,9 @@ import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import screenshotPayroll from '@/images/screenshots/payroll.png'
+import screenshotExpenses from '@/images/screenshots/expenses.png'
+import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 interface Feature {
   name: React.ReactNode
@@ -25,7 +28,7 @@ const features: Array<Feature> = [
       'Suivez en temps réel les inscriptions pour anticiper les besoins en enseignants ou planifier de nouvelles activités.',
     description:
       "Suivez en temps réel les inscriptions pour avoir une vision claire de l'évolution des demandes, ajuster les ressources et organiser efficacement les activités.",
-    image: screenshotProfitLoss,
+    image: screenshotPayroll,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -60,7 +63,7 @@ const features: Array<Feature> = [
       'Suivez en temps réel les inscriptions et gérez les besoins spécifiques de chaque utilisateur.',
     description:
       "Nos tableaux de bord personnalisés pour les parents, professeurs et la direction vous permettent de suivre en temps réel les inscriptions, d'anticiper les besoins en enseignants et de planifier de nouvelles activités efficacement.",
-    image: screenshotInventory,
+    image: screenshotExpenses,
     icon: function DashboardIcon() {
       return (
         <>
@@ -88,7 +91,7 @@ const features: Array<Feature> = [
       'Centralisez les informations de vos élèves pour une gestion simplifiée et efficace.',
     description:
       'Organisez toutes les données relatives à vos élèves, de l’inscription aux documents associés, pour une gestion fluide et structurée.',
-    image: screenshotContacts,
+    image: screenshotVatReturns,
     icon: function StudentsIcon() {
       return (
         <>
