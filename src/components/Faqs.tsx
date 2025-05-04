@@ -87,8 +87,7 @@ export function Faqs() {
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Si vous ne trouvez pas ce que vous cherchez, contactez notre équipe
-            de support et, si vous avez de la chance, quelqu&apos;un reviendra
-            vers vous.
+            de support.
           </p>
         </div>
         <ul

@@ -1,6 +1,7 @@
 import Image from 'next/image'
-
+import Link from 'next/link'
 import { Button } from '@/components/Button'
+import { NavLink } from '@/components/NavLink'
 import { Container } from '@/components/Container'
 import logoLaravel from '@/images/logos/laravel.svg'
 import logoMirage from '@/images/logos/mirage.svg'
@@ -32,19 +33,15 @@ export function Hero() {
         simple, rapide et efficace.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">2 mois offerts</Button>
-        {/* <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        <Button style={{gap:'10px'}}href="/https://calendly.com/hello1367studio/30min"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg><span>Réserver un appel</span></Button>
+        <Button
+          href="#secondary-features"
           variant="outline"
+          style={{ gap: '10px'}}
         >
-          <svg
-            aria-hidden="true"
-            className="h-3 w-3 flex-none fill-blue-600 group-active:fill-current"
-          >
-            <path d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z" />
-          </svg>
-          <span className="ml-3">Regarder la vidéo</span>
-        </Button> */}
+      <span>Savoir plus</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </Button>
       </div>
       {/* <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">

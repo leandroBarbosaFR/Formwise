@@ -12,8 +12,16 @@ export function Footer() {
           <Logo className="mx-auto h-10 w-auto" />
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
-              <NavLink href="#features">Fonctionnalités</NavLink>
-              {/* <NavLink href="#testimonials">Témoignages</NavLink> */}
+              <NavLink href="mailto:formwise_contact@gmail.com" style={{ display: 'flex', flexDirection: 'row', gap: '5px'}}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-mail-icon lucide-mail">
+                  <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/>
+                </svg>
+              formwise_contact@gmail.com</NavLink>
+              <NavLink href="#tel:+33763858388" style={{ display: 'flex', flexDirection: 'row', gap: '5px'}}>              
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className=" h-6 w-6 fill-slate-500 group-hover:fill-slate-700 lucide lucide-phone-icon lucide-phone">
+                  <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/>
+                </svg>
+              +33 0763858388</NavLink>
               {/* <NavLink href="#pricing">Tarification</NavLink> */}
             </div>
           </nav>

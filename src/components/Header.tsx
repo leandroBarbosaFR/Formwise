@@ -93,17 +93,17 @@ export function Header() {
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Fonctionnalités</NavLink>
-              {/* <NavLink href="#testimonials">Témoignages</NavLink>
-              <NavLink href="#pricing">Tarification</NavLink> */}
+              <NavLink href="#secondary-features">Savoir plus</NavLink>
+              {/* <NavLink href="#pricing">Tarification</NavLink> */}
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="/login">Se connecter</NavLink>
+              <NavLink href="https://form-wise.vercel.app/login" target='_blank'>Se connecter</NavLink>
             </div>
             <div className="hidden md:block">
               {' '}
-              <Button href="/register" color="blue">
+              <Button href="https://calendly.com/hello1367studio/30min" color="blue">
                 <span className="lg:inline">
                   Commencez dès <span>aujourd&apos;hui</span>
                 </span>

@@ -27,8 +27,8 @@ export function CallToAction() {
             Il est temps de simplifier la gestion des inscriptions. Abonnez-vous
             à notre plateforme et profitez d&apos;une expérience sans tracas.
           </p>
-          <Button href="/register" color="white" className="mt-10">
-            Profitez de 2 mois gratuits
+          <Button href="/https://calendly.com/hello1367studio/30min" color="white" className="mt-10">
+          Réserver un appel
           </Button>
         </div>
       </Container>
