@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState } from 'react'
-import { Header } from '@/components/Header'
 import axios from 'axios'
 
 export default function Contact() {
@@ -85,9 +84,6 @@ export default function Contact() {
 
   return (
     <>
-      {/* Hero Section */}
-      <Header />
-
       {/* Main Content */}
       <div>
         <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
