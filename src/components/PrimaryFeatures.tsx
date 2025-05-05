@@ -94,7 +94,7 @@ export function PrimaryFeatures() {
                     <div
                       key={feature.title}
                       className={clsx(
-                        'group relative rounded-full px-4 py-1 lg:rounded-l-xl lg:rounded-r-none lg:p-6',
+                        'group relative rounded-full px-4 py-1 lg:rounded-l-xl lg:rounded-r-xl lg:p-6',
                         selectedIndex === featureIndex
                           ? 'bg-white lg:bg-white/10 lg:ring-1 lg:ring-white/10 lg:ring-inset'
                           : 'hover:bg-white/10 lg:hover:bg-white/5',
@@ -109,7 +109,7 @@ export function PrimaryFeatures() {
                               : 'text-blue-100 hover:text-white lg:text-white',
                           )}
                         >
-                          <span className="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none" />
+                          <span className="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-xl" />
                           {feature.title}
                         </Tab>
                       </h3>
