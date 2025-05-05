@@ -35,7 +35,8 @@ export function Hero() {
       <div className="mt-10 flex flex-col justify-center gap-x-6 gap-y-5 md:flex-row">
         <Button
           style={{ gap: '10px' }}
-          href="/https://calendly.com/hello1367studio/30min"
+          href="https://calendly.com/hello1367studio/30min"
+          target="_blank"
         >
           <span>Réserver un appel</span>
         </Button>
