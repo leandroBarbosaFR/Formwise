@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   description:
     'Avec notre solution, gérez facilement les inscriptions de manière simple, rapide et efficace.',
   icons: {
-    icon: '/favicon.ico', // your favicon
-    apple: '/apple-touch-icon.png', // your apple-touch-icon
+    icon: '/favicon.ico',
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
   },
 }
 
@@ -45,6 +45,15 @@ export default function RootLayout({
         lexend.variable,
       )}
     >
+      <head>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+      </head>
       <body className="flex h-full flex-col">
         {' '}
         <Header />
