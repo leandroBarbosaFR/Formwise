@@ -23,11 +23,11 @@ interface Feature {
 
 const features: Array<Feature> = [
   {
-    name: 'Suivi',
+    name: 'Acompanhamento',
     summary:
-      'Suivez en temps réel les inscriptions pour anticiper les besoins en enseignants ou planifier de nouvelles activités.',
+      'Acompanhe em tempo real as inscrições para antecipar necessidades de professores ou planejar novas atividades.',
     description:
-      "Suivez en temps réel les inscriptions pour avoir une vision claire de l'évolution des demandes, ajuster les ressources et organiser efficacement les activités.",
+      'Acompanhe em tempo real as inscrições para ter uma visão clara da evolução das demandas, ajustar recursos e organizar as atividades de forma eficiente.',
     image: screenshotPayroll,
     icon: function ReportingIcon() {
       let id = useId()
@@ -58,11 +58,11 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Tableaux de bord',
+    name: 'Painéis de controle',
     summary:
-      'Suivez en temps réel les inscriptions et gérez les besoins spécifiques de chaque utilisateur.',
+      'Acompanhe em tempo real as inscrições e gerencie as necessidades específicas de cada usuário.',
     description:
-      "Nos tableaux de bord personnalisés pour les parents, professeurs et la direction vous permettent de suivre en temps réel les inscriptions, d'anticiper les besoins en enseignants et de planifier de nouvelles activités efficacement.",
+      'Nossos painéis personalizados para pais, professores e a direção permitem acompanhar em tempo real as inscrições, antecipar necessidades de professores e planejar novas atividades com eficiência.',
     image: screenshotExpenses,
     icon: function DashboardIcon() {
       return (
@@ -86,11 +86,11 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Élèves',
+    name: 'Alunos',
     summary:
-      'Centralisez les informations de vos élèves pour une gestion simplifiée et efficace.',
+      'Centralize as informações dos seus alunos para uma gestão simples e eficaz.',
     description:
-      'Organisez toutes les données relatives à vos élèves, de l’inscription aux documents associés, pour une gestion fluide et structurée.',
+      'Organize todos os dados relacionados aos seus alunos, desde a inscrição até os documentos associados, para uma gestão fluida e estruturada.',
     image: screenshotVatReturns,
     icon: function StudentsIcon() {
       return (
@@ -238,11 +238,11 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplifiez les tâches quotidiennes d&apos;inscription.
+            Simplifique as tarefas diárias de inscrição.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Gagnez du temps, réduisez vos coûts en main d&apos;œuvre et
-            sécurisez vos processus d&apos;inscription.
+            Economize tempo, reduza os custos com mão de obra e torne seus
+            processos de inscrição mais seguros.
           </p>
         </div>
         <FeaturesMobile />

@@ -117,7 +117,8 @@ export function Footer() {
             </Link> */}
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            &copy; {new Date().getFullYear()} FormWise. Tous droits réservés.
+            &copy; {new Date().getFullYear()} FormWise. Todos os direitos
+            reservados.
           </p>
         </div>
       </Container>

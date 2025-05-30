@@ -6,58 +6,56 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Puis-je gérer plusieurs élèves avec votre plateforme ?',
+      question: 'Posso gerenciar vários alunos com a sua plataforma?',
       answer:
-        'Oui, vous pouvez facilement gérer et suivre l’inscription de plusieurs élèves en même temps, ce qui permet de garder toutes vos informations bien organisées.',
+        'Sim, você pode facilmente gerenciar e acompanhar a inscrição de vários alunos ao mesmo tempo, mantendo todas as informações bem organizadas.',
     },
     {
       question:
-        'Est-il possible de mettre à jour les informations d’un élève après l’inscription ?',
+        'É possível atualizar as informações de um aluno após a inscrição?',
       answer:
-        'Absolument, vous pouvez mettre à jour les informations des élèves à tout moment pour vous assurer que vos dossiers sont toujours à jour.',
+        'Com certeza! Você pode atualizar os dados dos alunos a qualquer momento para garantir que os registros estejam sempre atualizados.',
     },
     {
       question:
-        'Les parents peuvent-ils accéder aux détails de l’inscription de leurs enfants ?',
+        'Os pais podem acessar os detalhes da inscrição de seus filhos?',
       answer:
-        'Oui, les parents peuvent accéder en toute sécurité aux informations d’inscription de leurs enfants via leur tableau de bord personnel.',
+        'Sim, os pais têm acesso seguro às informações de inscrição dos filhos por meio de seus painéis personalizados.',
     },
   ],
   [
     {
       question:
-        'Que faire si je rencontre des problèmes techniques pendant l’inscription ?',
+        'O que fazer se eu tiver problemas técnicos durante a inscrição?',
       answer:
-        'Notre équipe d’assistance est là pour vous aider ! Vous pouvez nous contacter par email, et nous vous aiderons rapidement à résoudre tout problème.',
+        'Nossa equipe de suporte está aqui para ajudar! Você pode nos contatar por e-mail e vamos resolver qualquer problema rapidamente.',
     },
     {
-      question:
-        'Est-ce que la plateforme permet de gérer les paiements des inscriptions ?',
+      question: 'A plataforma permite gerenciar os pagamentos das inscrições?',
       answer:
-        'Oui, vous pouvez facilement gérer les paiements des inscriptions des élèves via notre plateforme, y compris les paiements en ligne et par virement.',
+        'Sim, você pode gerenciar facilmente os pagamentos das inscrições pela plataforma, incluindo pagamentos online e por transferência bancária.',
     },
     {
-      question: 'Puis-je personnaliser les formulaires d’inscription ?',
+      question: 'Posso personalizar os formulários de inscrição?',
       answer:
-        'Oui, vous pouvez personnaliser les formulaires d’inscription selon vos besoins, en ajoutant des champs spécifiques pour collecter toutes les informations nécessaires.',
+        'Sim, é possível personalizar os formulários de inscrição conforme suas necessidades, adicionando campos específicos para coletar todas as informações necessárias.',
     },
   ],
   [
     {
-      question: 'Comment suivre l’état des inscriptions de mes élèves ?',
+      question: 'Como acompanhar o status das inscrições dos meus alunos?',
       answer:
-        'Vous pouvez suivre l’état de toutes les inscriptions des élèves directement depuis votre tableau de bord administrateur, en temps réel.',
+        'Você pode acompanhar o status de todas as inscrições em tempo real diretamente no seu painel administrativo.',
     },
     {
-      question: 'Les enseignants ont-ils un accès pour gérer leurs élèves ?',
+      question: 'Os professores têm acesso para gerenciar seus alunos?',
       answer:
-        'Oui, vous pouvez accorder un accès spécifique aux enseignants pour qu’ils puissent suivre les informations des élèves et gérer leurs emplois du temps.',
+        'Sim, você pode conceder acesso específico aos professores para que eles acompanhem as informações dos alunos e gerenciem seus horários.',
     },
     {
-      question:
-        'Puis-je exporter les données des inscriptions pour des rapports ?',
+      question: 'Posso exportar os dados das inscrições para relatórios?',
       answer:
-        'Oui, vous pouvez facilement exporter les données des inscriptions en format Excel ou CSV pour générer des rapports détaillés.',
+        'Sim, você pode exportar facilmente os dados das inscrições em formato Excel ou CSV para gerar relatórios detalhados.',
     },
   ],
 ]
@@ -83,11 +81,11 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Questions fréquentes
+            Perguntas frequentes
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Si vous ne trouvez pas ce que vous cherchez, contactez notre équipe
-            de support.
+            Se você não encontrar o que está procurando, entre em contato com
+            nossa equipe de suporte.
           </p>
         </div>
         <ul

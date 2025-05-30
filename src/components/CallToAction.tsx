@@ -21,14 +21,18 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Commencez dès aujourd&apos;hui
+            Comece hoje mesmo
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            Il est temps de simplifier la gestion des inscriptions. Abonnez-vous
-            à notre plateforme et profitez d&apos;une expérience sans tracas.
+            É hora de simplificar a gestão das inscrições. Assine nossa
+            plataforma e aproveite uma experiência sem complicações.
           </p>
-          <Button href="/https://calendly.com/hello1367studio/30min" color="white" className="mt-10">
-          Réserver un appel
+          <Button
+            href="/https://calendly.com/hello1367studio/30min"
+            color="white"
+            className="mt-10"
+          >
+            Agendar uma ligação
           </Button>
         </div>
       </Container>

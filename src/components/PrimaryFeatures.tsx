@@ -14,27 +14,27 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: "Inscription d'élèves",
+    title: 'Inscrição de alunos',
     description:
-      "Suivez facilement l'inscription de chaque élève et gérez les informations associées, le tout de manière simplifiée.",
+      'Acompanhe facilmente a inscrição de cada aluno e gerencie as informações associadas de forma simplificada.',
     image: screenshotPayroll,
   },
   {
-    title: 'Tableau de bord pour les parents, professeurs et direction',
+    title: 'Painel para pais, professores e direção',
     description:
-      "Un tableau de bord centralisé pour que les parents, les enseignants et la direction puissent suivre l'avancement des inscriptions et des informations.",
+      'Um painel centralizado para que pais, professores e a direção acompanhem o andamento das inscrições e das informações.',
     image: screenshotExpenses,
   },
   {
-    title: 'Création de nouvelles activités',
+    title: 'Criação de novas atividades',
     description:
-      'Ajoutez et gérez facilement des activités extrascolaires, en permettant une inscription rapide et simple pour chaque élève.',
+      'Adicione e gerencie facilmente atividades extracurriculares, permitindo uma inscrição rápida e simples para cada aluno.',
     image: screenshotVatReturns,
   },
   {
-    title: 'Notifications personnalisées pour les parents',
+    title: 'Notificações personalizadas para os pais',
     description:
-      "Envoyez des notifications instantanées à chaque parent pour les tenir informés de l'avancement de l'inscription de leur enfant.",
+      'Envie notificações instantâneas para cada pai ou mãe para mantê-los informados sobre o andamento da inscrição de seu filho.',
     image: screenshotReporting,
   },
 ]
@@ -76,10 +76,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Tout ce dont vous avez besoin pour gérer les inscriptions.
+            Tudo o que você precisa para gerenciar as inscrições.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Fini la paperasse, simplifiez vos inscriptions dès maintenant.
+            Chega de papelada, simplifique suas inscrições agora mesmo.
           </p>
         </div>
         <TabGroup
